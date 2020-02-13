@@ -7,7 +7,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CompanyTogetherApplication {
 
 	public static void main(String[] args) {
+
+
 		SpringApplication.run(CompanyTogetherApplication.class, args);
+
+	}
+
+	public void doSomething()
+	{
+		System.out.println("Hello");
 	}
 
 }
